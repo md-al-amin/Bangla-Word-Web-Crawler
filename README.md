@@ -33,7 +33,7 @@ python3 -m pip install -r requirements.txt
 ## requirements.txt
 The requirements.txt file specifies the Python libraries your program depends on. The list now includes a few more packages that improve the reliability and functionality of the crawler:
 
-**requests==2.31.0:** The primary library for making HTTP requests to websites.
++ requests==2.31.0: The primary library for making HTTP requests to websites.
 
 beautifulsoup4==4.12.2: A library for pulling data out of HTML and XML files.
 
