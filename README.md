@@ -33,22 +33,22 @@ python3 -m pip install -r requirements.txt
 ## requirements.txt
 The requirements.txt file specifies the Python libraries your program depends on. The list now includes a few more packages that improve the reliability and functionality of the crawler:
 
- + **requests==2.31.0:** The primary library for making HTTP requests to websites.
++ **requests==2.31.0:** The primary library for making HTTP requests to websites.
 
-beautifulsoup4==4.12.2: A library for pulling data out of HTML and XML files.
++ **beautifulsoup4==4.12.2:** A library for pulling data out of HTML and XML files.
 
-lxml==4.9.3: A high-performance XML and HTML parser that serves as a backend for BeautifulSoup.
++ **lxml==4.9.3:** A high-performance XML and HTML parser that serves as a backend for BeautifulSoup.
 
-html5lib==1.1: A robust, standard-compliant HTML parser that can also be used with BeautifulSoup.
++ **html5lib==1.1:** A robust, standard-compliant HTML parser that can also be used with BeautifulSoup.
 
-urllib3==2.0.7: An HTTP client library that is a dependency of requests.
++ **urllib3==2.0.7:** An HTTP client library that is a dependency of requests.
 
-certifi==2023.7.22: A curated list of trusted root certificates that requests uses to verify SSL certificates.
++ **certifi==2023.7.22:** A curated list of trusted root certificates that requests uses to verify SSL certificates.
 
-charset-normalizer==3.3.2: A library that helps detect the character encoding of text, ensuring proper handling of Bengali text.
++ **charset-normalizer==3.3.2:** A library that helps detect the character encoding of text, ensuring proper handling of Bengali text.
 
-idna==3.4: A library for handling internationalized domain names.
++ **idna==3.4:** A library for handling internationalized domain names.
 
-soupsieve==2.5: A CSS selector library that improves the performance of BeautifulSoup.
++ **soupsieve==2.5:** A CSS selector library that improves the performance of BeautifulSoup.
 
-regex==2023.10.3: A more advanced regular expression library for more complex search patterns.
++ **regex==2023.10.3:** A more advanced regular expression library for more complex search patterns.
