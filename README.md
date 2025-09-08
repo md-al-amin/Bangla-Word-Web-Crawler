@@ -98,3 +98,9 @@ python3 bangla_word_crawler.py --domains domain_list.txt --words word_list.txt -
 ## Example Output
 After the crawl is complete, a `results.csv` file will be created with a format similar to this:
 
+```
+URL,Matched Word
+[https://example.com/about-us,ব](https://example.com/about-us,ব)াংলাদেশ
+[https://example.com/news/article-123,হ](https://example.com/news/article-123,হ)াসিনা
+[https://wikipedia.org/wiki/Bangladesh,ম](https://wikipedia.org/wiki/Bangladesh,ম)ুজিব
+```
