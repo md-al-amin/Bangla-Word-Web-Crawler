@@ -32,7 +32,7 @@ cd Bangla-Word-Web-Crawler
 
 python3 -m pip install -r requirements.txt
 python3 bangla_word_crawler.py --create-samples
-python3 bangla_word_crawler.py --domains domain_list.txt --words word_list.txt --output my_results.csv --max-pages 100 --workers 10
+python3 bangla_word_crawler.py --domains domain_list.txt --words word_list.txt --output results.csv --max-pages 100 --workers 10
 ```
 
 ## requirements.txt
@@ -90,7 +90,7 @@ This will create `domain_list.txt` with sample domains and `word_list.txt` conta
 Once your input files are ready, you can execute the program with python3 and specify the paths to your files.  
 
 ```
-python3 bangla_word_crawler.py --domains domain_list.txt --words word_list.txt --output my_results.csv --max-pages 100 --workers 10
+python3 bangla_word_crawler.py --domains domain_list.txt --words word_list.txt --output results.csv --max-pages 100 --workers 10
 ```
 
 4. **Command-Line Arguments**
