@@ -54,7 +54,16 @@ The requirements.txt file specifies the Python libraries your program depends on
 + **regex==2023.10.3:** A more advanced regular expression library for more complex search patterns.
 
 ## How to Use
-1. **Prepare Input Files**
+1. **Download the Code**  
+You can download the project in two ways:
+
+- **Clone the repository:** If you have Git installed, you can clone the project to your local machine using the following command. This is the recommended method as it allows you to easily get future updates.
+```
+git clone https://github.com/md-al-amin/Bangla-Word-Web-Crawler.git
+```
+- **Download as a ZIP file:** On the main repository page, click the green Code button and select Download ZIP. This will download the entire project as a compressed file that you can extract.
+
+2. **Prepare Input Files**
 
 The crawler requires two plain text files to operate:
 
@@ -71,7 +80,7 @@ python3 bangla_word_crawler.py --create-samples
 This will create `domain_list.txt` with sample domains and `word_list.txt` containing common Bengali words like বাংলাদেশ,আমাদের and সফটওয়্যার .
 
 
-2. **Run the Crawler**
+3. **Run the Crawler**
    
 Once your input files are ready, you can execute the program with python3 and specify the paths to your files.  
 
@@ -79,7 +88,7 @@ Once your input files are ready, you can execute the program with python3 and sp
 python3 bangla_word_crawler.py --domains domain_list.txt --words word_list.txt --output my_results.csv --max-pages 100 --workers 10
 ```
 
-3. **Command-Line Arguments**
+4. **Command-Line Arguments**
    
 `--domains` / `-d`: (Required)` Path to the text file containing the list of domains.
 
