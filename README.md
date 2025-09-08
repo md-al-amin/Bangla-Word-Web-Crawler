@@ -26,5 +26,5 @@ To run this program, you need Python 3 installed on your system. The required li
 ## Installing Dependencies
 You can install all necessary libraries by running the following command in your terminal:
 
-````python3 -m pip install -r requirements.txt````
+`python3 -m pip install -r requirements.txt`
 
