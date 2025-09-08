@@ -24,7 +24,7 @@ The program takes a list of domains and a list of target words. It then systemat
 To run this program, you need Python 3 installed on your system. The required libraries are listed in the `requirements.txt` file.
 
 ## Installing Dependencies
-You can install all necessary libraries by running the following command in your terminal:
+You can install all necessary libraries by running the following command in your terminal:  
 
 ```
 python3 -m pip install -r requirements.txt
