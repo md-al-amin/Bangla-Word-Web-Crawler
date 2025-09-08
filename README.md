@@ -23,11 +23,16 @@ The program takes a list of domains and a list of target words. It then systemat
 ## Prerequisites
 To run this program, you need Python 3 installed on your system. The required libraries are listed in the `requirements.txt` file.
 
-## Installing Dependencies
+## Installation and Usage 
 You can install all necessary libraries by running the following command in your terminal:  
 
 ```
+git clone https://github.com/md-al-amin/Bangla-Word-Web-Crawler.git
+cd Bangla-Word-Web-Crawler
+
 python3 -m pip install -r requirements.txt
+python3 bangla_word_crawler.py --create-samples
+python3 bangla_word_crawler.py --domains domain_list.txt --words word_list.txt --output my_results.csv --max-pages 100 --workers 10
 ```
 
 ## requirements.txt
@@ -110,6 +115,6 @@ After the crawl is complete, a `results.csv` file will be created with a format 
 ```
 URL,Matched Word
 [https://example.com/about-us,ব](https://example.com/about-us,ব)াংলাদেশ
-[https://example.com/news/article-123,হ](https://example.com/news/article-123,হ)াসিনা
-[https://wikipedia.org/wiki/Bangladesh,ম](https://wikipedia.org/wiki/Bangladesh,ম)ুজিব
+[https://example.com/news/article-123,স](https://example.com/news/article-123,সফটওয়্যার 
+
 ```
