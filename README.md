@@ -28,7 +28,6 @@ You can install all necessary libraries by running the following command in your
 
 ```
 python3 -m pip install -r requirements.txt
-
 ```
 
 ## requirements.txt
@@ -67,7 +66,6 @@ For your convenience, you can automatically generate sample files with a single 
 
 ```
 python3 bangla_word_crawler.py --create-samples
-
 ```
 
 This will create `domain_list.txt` with sample domains and `word_list.txt` containing common Bengali words like বাংলাদেশ,আমাদের and সফটওয়্যার .
