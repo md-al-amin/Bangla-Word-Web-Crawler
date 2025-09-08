@@ -16,6 +16,6 @@ The program takes a list of domains and a list of target words. It then systemat
 
 **Targeted Internal Search:** Only follows links within the same domain, keeping the crawl focused and relevant to the provided domain list.
 
-**Comprehensive Logging:** All crawling activity, warnings, and errors are logged to a crawler.log file, making it easy to monitor and debug the process.
+**Comprehensive Logging:** All crawling activity, warnings, and errors are logged to a `crawler.log` file, making it easy to monitor and debug the process.
 
-**CSV Output:** All found matches, including the URL and the specific matched word, are saved to a neatly formatted results.csv file.
+**CSV Output:** All found matches, including the URL and the specific matched word, are saved to a neatly formatted `results.csv` file.
