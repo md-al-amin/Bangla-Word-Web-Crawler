@@ -94,3 +94,7 @@ python3 bangla_word_crawler.py --domains domain_list.txt --words word_list.txt -
 `--workers`: (Optional) The number of concurrent threads to use for crawling. The default is 10.
 
 `--create-samples`: (Flag) Creates sample input files (domain_list.txt and word_list.txt) and then exits the program.
+
+## Example Output
+After the crawl is complete, a `results.csv` file will be created with a format similar to this:
+
