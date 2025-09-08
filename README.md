@@ -26,7 +26,8 @@ To run this program, you need Python 3 installed on your system. The required li
 ## Installing Dependencies
 You can install all necessary libraries by running the following command in your terminal:
 
-`python3 -m pip install -r requirements.txt`
+```python3 -m pip install -r requirements.txt
+```
 
 ## requirements.txt
 The requirements.txt file specifies the Python libraries your program depends on. The list now includes a few more packages that improve the reliability and functionality of the crawler:
