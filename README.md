@@ -3,4 +3,4 @@ This is a powerful and efficient multithreaded web crawler designed specifically
 
 The program takes a list of domains and a list of target words. It then systematically crawls each domain, follows internal links up to a specified limit, and identifies any pages where a target word is found. All matches are logged and saved to a clean CSV file for easy analysis.
 
-##Key Features
+## Key Features
