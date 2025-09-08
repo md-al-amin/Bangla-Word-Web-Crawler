@@ -52,3 +52,39 @@ The requirements.txt file specifies the Python libraries your program depends on
 + **soupsieve==2.5:** A CSS selector library that improves the performance of BeautifulSoup.
 
 + **regex==2023.10.3:** A more advanced regular expression library for more complex search patterns.
+
+## How to Use
+1. **Prepare Input Files**
+The crawler requires two plain text files to operate:
+
++ `domain_list.txt:` Each line should contain a single domain to crawl (e.g., example.com).
+
++ `word_list.txt:` Each line should contain one Bengali word you want to search for.
+
+For your convenience, you can automatically generate sample files with a single command:
+
+```
+python3 bangla_word_crawler.py --create-samples
+```
+
+This will create `domain_list.txt` with sample domains and `word_list.txt` containing common Bengali words like বাংলাদেশ,আমাদের and সফটওয়্যার .
+2. **Run the Crawler**
+Once your input files are ready, you can execute the program with python3 and specify the paths to your files.
+```
+python3 bangla_word_crawler.py --domains domain_list.txt --words word_list.txt --output my_results.csv --max-pages 100 --workers 10
+```
+
+3. **Command-Line Arguments**
+`--domains` / `-d`: (Required)` Path to the text file containing the list of domains.
+
+--words / -w: (Required) Path to the text file containing the list of Bengali words.
+
+--output / -o: (Optional) The name for the output CSV file. Defaults to results.csv.
+
+--max-pages / -p: (Optional) The maximum number of pages to crawl per domain. The default is 50.
+
+--delay: (Optional) The delay in seconds between each request. Defaults to 1.0.
+
+--workers: (Optional) The number of concurrent threads to use for crawling. The default is 10.
+
+--create-samples: (Flag) Creates sample input files (domain_list.txt and word_list.txt) and then exits the program.
