@@ -76,6 +76,7 @@ This will create `domain_list.txt` with sample domains and `word_list.txt` conta
 2. **Run the Crawler**
    
 Once your input files are ready, you can execute the program with python3 and specify the paths to your files.
+
 ```
 python3 bangla_word_crawler.py --domains domain_list.txt --words word_list.txt --output my_results.csv --max-pages 100 --workers 10
 ```
