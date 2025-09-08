@@ -62,7 +62,7 @@ The crawler requires two plain text files to operate:
 
 + `word_list.txt:` Each line should contain one Bengali word you want to search for.
 
-For your convenience, you can automatically generate sample files with a single command:
+For your convenience, you can automatically generate sample files with a single command:  
 
 ```
 python3 bangla_word_crawler.py --create-samples
@@ -73,7 +73,7 @@ This will create `domain_list.txt` with sample domains and `word_list.txt` conta
 
 2. **Run the Crawler**
    
-Once your input files are ready, you can execute the program with python3 and specify the paths to your files.
+Once your input files are ready, you can execute the program with python3 and specify the paths to your files.  
 
 ```
 python3 bangla_word_crawler.py --domains domain_list.txt --words word_list.txt --output my_results.csv --max-pages 100 --workers 10
