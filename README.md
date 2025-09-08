@@ -68,6 +68,8 @@ python3 bangla_word_crawler.py --create-samples
 ```
 
 This will create `domain_list.txt` with sample domains and `word_list.txt` containing common Bengali words like বাংলাদেশ,আমাদের and সফটওয়্যার .
+
+
 2. **Run the Crawler**
 Once your input files are ready, you can execute the program with python3 and specify the paths to your files.
 ```
@@ -77,7 +79,7 @@ python3 bangla_word_crawler.py --domains domain_list.txt --words word_list.txt -
 3. **Command-Line Arguments**
 `--domains` / `-d`: (Required)` Path to the text file containing the list of domains.
 
---words / -w: (Required) Path to the text file containing the list of Bengali words.
+`--words` / `-w`: (Required) Path to the text file containing the list of Bengali words.
 
 --output / -o: (Optional) The name for the output CSV file. Defaults to results.csv.
 
